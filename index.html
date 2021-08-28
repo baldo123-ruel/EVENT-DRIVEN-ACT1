@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      <link rel="stylesheet" href="style.css">
+     <link href='https://css.gg/google.css' rel='stylesheet'>
+     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link rel="stylesheet" 
     type="text/css" href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+    <link href='https://css.gg/facebook.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENT-DRIVEN PORTFOLIO-ACT1</title>
     <style type="text/css">
        body{
-           background-color: floralwhite;
+           background-color: rgb(10, 42, 68);
            font-family: monospace;
        }
        .logo{
@@ -27,7 +29,7 @@
        }
        .profile{
            position: absolute;
-           margin-left: 40%;
+           margin-left: 42%;
            margin-top: -7%;
            
            
@@ -41,11 +43,11 @@
        }
        .profile h4{
            padding: 10px;
-           background-color: royalblue;
+           background-color: rgb(53, 55, 59);
            border-radius: 10px;
            font-size: 30px;
            color: floralwhite;
-           width: 40%
+           width: 50%
            ;
            margin-left: -10%;
            margin-top: 5%;
@@ -53,10 +55,46 @@
        .box{
            margin-top: 20%;
            width: 80%;
+           color: floralwhite;
            box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
            margin-left: 14%;
            border: 1px darkslategray solid;
        }
+       .box:hover{
+          width: 90%;
+          margin-left: 4%;
+          border-radius: 10%;
+          transition-duration: 2s;
+          border: 2px darkslategray solid;
+       }
+       .icons .iconlist{
+         margin-left: 10%;
+         background-color: royalblue;
+         padding: 9px;
+         border-radius: 5px;
+         opacity: 0.9;
+
+       }
+       .iconlist:hover{
+        background-color: rgb(47, 50, 59);
+        width: 4%;
+        padding: 10px;
+        opacity: 1;
+        transition-duration: 2s;
+        color: floralwhite;
+        border-radius: 40%;
+       }
+       .iconlist i{
+           color: floralwhite;
+       }
+       .icons{
+           width:100%;
+           position: absolute;
+           margin-top:10%;
+           display: flex;
+           margin-left:8%;
+       }
+       
        .title{
            padding: 10px;
            background-color: darkslategray;
@@ -69,9 +107,9 @@
 </head>
 <body>
         <div class="container">
-            <div class="bg-dark"style="padding:10px;border-radius:10px;">
-                <div class="text-center text-light">
-                    <h4 style="font-family:monospace">My Portfolio</h4>
+            <div class="bg-warning"style="padding:10px;border-radius:10px;">
+                <div class="text-center text-dark">
+                    <h4 style="font-family:monospace">Portfolio</h4>
                 </div>
             </div>
             <div class="logo">
@@ -94,15 +132,32 @@
                        IT industry,Its really hard to know how to program or run correctly the codes,so i decided to watch the tutorial on how to be stack developer so its work i learn a lot from them,until 
                        now i am continue to practice my skill that  very soon i am needed to the IT INDUSTRY.</p>
               </div>
-          </div><br>
+          </div>
+            <div class="icons">
+                <div class="iconlist">
+                    <i class="gg-facebook"></i>
+                </div>
+                <div class="iconlist">
+                    <a href = "mailto: bebebaldo75@gmail.com"><i class="gg-google"></i></a>
+                </div>
+                <div class="iconlist">
+                    <a href = "mailto: bebebaldo75@gmail.com"><i class="gg-instagram"></i></a>
+                </div>
+                
+            </div>
+          <br>
           <div class="box">
             <div class="title">
-                <h2>PROJECT</h2>
+                <h2>MY PROJECT LINK</h2>
             </div>
             <div class="paragraph">
-                <p>I have more project during the previous semister , one of the project that had created is <i>Library system</i>
-                 ,Student management system, now i always dream that someday i build project an application,
+                
+                <p><a href="https://ruelbaldo.000webhostapp.com/"class="btn btn-warning">Note ++</a></p>
+                <p><a href="https://aguilarleani.000webhostapp.com/"class="btn btn-danger">Movie Web</a></p>
+                <p>I have more project but all of them is in my laptop I have'nt already upload to the hosting web 
+                   but you can email me to send to you of my project 
                 </p>
+                
             </div>
         </div>
         </div>
